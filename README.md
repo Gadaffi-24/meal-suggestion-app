@@ -7,13 +7,13 @@ This Android app helps users quickly decide what to eat based on the time of day
 
 GitHub Repository: 
 
-Link to GitHub Repository 
+https://github.com/Gadaffi-24/meal-suggestion-app.git
 
 YouTube Video: 
 
 Link to YouTube Video 
 
-Features: 
+//Features: 
 
 User can input the time of day (Morning, Afternoon, Dinner, etc.). 
 
@@ -23,8 +23,10 @@ Includes a reset button to clear the input and suggestions.
 
 Error handling for invalid inputs. 
 
-GitHub Actions: 
+//GitHub Actions: 
 
 Automated build and test on every push to the main branch. 
 
-Screenshots: 
+//Screenshots: 
+![visual](Screenshot_20250402_121431.png)
+![visual](Screenshot_20250402_123046.png)
