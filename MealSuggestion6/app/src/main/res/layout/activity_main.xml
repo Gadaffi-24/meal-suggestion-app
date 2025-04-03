@@ -33,8 +33,6 @@
         app:layout_constraintTop_toBottomOf="@+id/timeInput" />
 
     <!-- Meal suggestion results -->
-
-    <!-- Button to reset the input -->
     <TextView
         android:id="@+id/mealSuggestion"
         android:layout_width="267dp"
@@ -46,6 +44,7 @@
         app:layout_constraintStart_toStartOf="@+id/suggestButton"
         app:layout_constraintTop_toBottomOf="@+id/suggestButton" />
 
+    <!-- Button to reset the input -->
     <Button
         android:id="@+id/resetButton"
         android:layout_width="wrap_content"
