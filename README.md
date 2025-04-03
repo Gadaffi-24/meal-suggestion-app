@@ -13,20 +13,20 @@ YouTube Video:
 
 Link to YouTube Video 
 
-//Features: 
+Features: 
 
-User can input the time of day (Morning, Afternoon, Dinner, etc.). 
+1.User can input the time of day (Morning, Afternoon, Dinner, etc.). 
 
-App suggests a meal based on the time of day. 
+2.App suggests a meal based on the time of day. 
 
-Includes a reset button to clear the input and suggestions. 
+3.Includes a reset button to clear the input and suggestions. 
 
-Error handling for invalid inputs. 
+4.Error handling for invalid inputs. 
 
-//GitHub Actions: 
+5.GitHub Actions: 
 
-Automated build and test on every push to the main branch. 
+6.Automated build and test on every push to the main branch. 
 
-//Screenshots: 
+Screenshots: 
 ![visual](Screenshot_20250402_121431.png)
 ![visual](Screenshot_20250402_123046.png)
