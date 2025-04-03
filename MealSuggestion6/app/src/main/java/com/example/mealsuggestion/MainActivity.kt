@@ -25,21 +25,28 @@ class MainActivity : AppCompatActivity() {
         // Log user input for debugging purposes
         Log.d("MealSuggestionApp", "User entered: $timeOfDay")
 
-        val suggestion = when (timeOfDay) {
-            "morning" -> "Oatmeal with fruits (Healthy start)"
-            "mid-morning" -> "Granola bar (Quick snack)"
-            "afternoon" -> "Grilled chicken salad (Light, filling)"
-            "mid-afternoon" -> "Yogurt with honey (Refresh & Energize)"
-            "dinner" -> "Grilled salmon with roasted veggies (Nutrient-packed)"
-            "after dinner" -> "Dark chocolate and almonds (Light dessert)"
-            else -> {
-                // Log error for invalid input
-                Log.e("MealSuggestionApp", "Invalid input: $timeOfDay")
-                // Show error if input is invalid
-                Toast.makeText(this, "Invalid time entered. Please try again.", Toast.LENGTH_SHORT).show()
-                return
-            }
+        var suggestion: String
+
+        if (timeOfDay == "morning") {
+            suggestion = "Oatmeal with fruits (Healthy start)"
+        } else if (timeOfDay == "mid-morning") {
+            suggestion = "Granola bar (Quick snack)"
+        } else if (timeOfDay == "afternoon") {
+            suggestion = "Grilled chicken salad (Light, filling)"
+        } else if (timeOfDay == "mid-afternoon") {
+            suggestion = "Yogurt with honey (Refresh & Energize)"
+        } else if (timeOfDay == "dinner") {
+            suggestion = "Grilled salmon with roasted veggies (Nutrient-packed)"
+        } else if (timeOfDay == "after dinner") {
+            suggestion = "Dark chocolate and almonds (Light dessert)"
+        } else {
+            // Log error for invalid input
+            Log.e("MealSuggestionApp", "Invalid input: $timeOfDay")
+            // Show error if input is invalid
+            Toast.makeText(this, "Invalid time entered. Please try again.", Toast.LENGTH_SHORT).show()
+            return
         }
+
         mealSuggestion.text = "Meal Suggestion: $suggestion"
     }
 
@@ -52,5 +59,4 @@ class MainActivity : AppCompatActivity() {
         mealSuggestion.text = "Meal Suggestion will appear here."
     }
 }
-
 
