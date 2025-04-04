@@ -21,7 +21,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: 11
-          distribution: 'adoptopenjdk'
+          distribution: 'temurin'  # Updated distribution
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v2
@@ -41,7 +41,7 @@ jobs:
         run: ./gradlew testDebugUnitTest
 
       - name: Run Instrumented tests (Android tests)
-        run: gradlew connectedDebugAndroidTest
+        run: ./gradlew connectedDebugAndroidTest
 
       - name: Upload test results
         if: always()
