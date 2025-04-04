@@ -7,6 +7,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import org.jetbrains.annotations.TestOnly
 
 class MainActivity : AppCompatActivity() {
 
@@ -59,4 +60,3 @@ class MainActivity : AppCompatActivity() {
         mealSuggestion.text = "Meal Suggestion will appear here."
     }
 }
-
