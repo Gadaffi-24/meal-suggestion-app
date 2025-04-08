@@ -11,7 +11,7 @@ https://github.com/Gadaffi-24/meal-suggestion-app.git
 
 YouTube Video: 
 
-Link to YouTube Video 
+https://youtube.com/shorts/xYbD30AzzcQ?feature=share
 
 Features: 
 
