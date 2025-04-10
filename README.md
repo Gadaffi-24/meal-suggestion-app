@@ -1,5 +1,7 @@
 # meal suggestion app
  Meal Suggestion App 
+ Student Number: ST10495452
+ Student Name: Mokete Mantjane
 
 Purpose: 
 
